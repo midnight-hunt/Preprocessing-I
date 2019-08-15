@@ -1,1 +1,252 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+p,
+a {
+  font-family: 'Source Code Pro', monospace;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Inconsolata', monospace;
+}
+h1 {
+  font-size: 3vw;
+  margin: 2vw 4vh;
+}
+h2 {
+  font-size: 2.5vw;
+  text-decoration: underline;
+  border-top: 2px dotted gray;
+  padding-top: 2vh;
+  text-align: center;
+}
+h5 {
+  font-family: 'Patrick Hand', cursive;
+}
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 1.5vh;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.5vw;
+}
+img {
+  width: 30vw;
+}
+@media screen and (max-width: 500px) {
+  img {
+    width: 90%;
+    border: 4px solid black;
+  }
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+header a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2vh 4vw;
+}
+.top-content {
+  border-top: 2px dotted gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.top-content .top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.top-content .top .pic {
+  margin: 4vh;
+}
+.top-content .top h2 {
+  border-top: 0;
+  font-size: 2vw;
+}
+.top-content .top .intro {
+  border-top: 2px dotted gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.top-content .top .intro p {
+  font-size: 1vw;
+  margin: 1vh 0;
+}
+.top-content .top .intro h5 {
+  font-size: 1.5vw;
+  margin: 0 2vw 2vw 2vw;
+  text-align: center;
+}
+.skills {
+  text-align: center;
+  padding-bottom: 2vh;
+}
+.history {
+  text-align: center;
+  text-decoration: underline;
+}
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1vh;
+  padding-bottom: 5vh;
+  text-align: center;
+}
+.work h2,
+.work h3 {
+  margin: 1vh;
+}
+.work h3 {
+  font-size: 2.2vw;
+}
+.work h4 {
+  font-size: 2vw;
+}
+.work p {
+  font-size: 1.5vw;
+}
